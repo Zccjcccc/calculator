@@ -1,22 +1,28 @@
 .keypad {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .keypad-scientific {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding-bottom: 10px;
+  gap: 10px;
+  padding-bottom: 8px;
   border-bottom: 1px solid #374151;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .keypad-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
+  gap: 6px;
+}
+
+.keypad-basic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .keypad-scientific .keypad-row {

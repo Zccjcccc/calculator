@@ -6,7 +6,7 @@ const isDev = !app.isPackaged;
 function createWindow() {
   const win = new BrowserWindow({
     width: 380,
-    height: 620,
+    height: 660,
     resizable: false,
     autoHideMenuBar: true,
     title: 'Calculator',
