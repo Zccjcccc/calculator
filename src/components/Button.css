@@ -1,0 +1,69 @@
+.btn {
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  min-width: 0;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-number {
+  background: #4a4a5a;
+  color: #fff;
+}
+
+.btn-number:hover {
+  background: #5a5a6a;
+}
+
+.btn-operator {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.btn-operator:hover {
+  background: #fbbf24;
+}
+
+.btn-function {
+  background: #374151;
+  color: #a7c7e7;
+  font-size: 0.9rem;
+}
+
+.btn-function:hover {
+  background: #4b5563;
+}
+
+.btn-action {
+  background: #374151;
+  color: #f87171;
+  font-size: 0.95rem;
+}
+
+.btn-action:hover {
+  background: #4b5563;
+}
+
+.btn-equals {
+  background: #2563eb;
+  color: #fff;
+}
+
+.btn-equals:hover {
+  background: #3b82f6;
+}
+
+.btn-wide {
+  grid-column: span 2;
+}
